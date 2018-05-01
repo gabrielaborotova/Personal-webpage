@@ -1,0 +1,176 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,700i,900');
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    font-stretch: semi-condensed;
+    margin:0;
+    text-align: center;
+}
+main {
+    clear: both;
+    background-color: white;
+    margin-top: 0;
+    padding: 0;
+}
+section {
+    clear:both;
+}
+
+section#zručnosti{
+    position: relative;
+    left: 0px;
+    margin-bottom: 70px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+div.popis {
+    position: absolute;
+    top: 30px;
+    padding-top: 40px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+q.citacia {
+    text-align: center;
+}
+.container {
+   padding-left: O;
+
+}
+
+
+a.navbar-brand {
+    color: white!important;
+    text-transform: uppercase;
+}
+a.nav-link:hover {
+     background-color:#966122
+
+}
+a.nav-link {
+     color: white!important;
+    text-transform: uppercase;
+}
+
+nav.mynavbar.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #363636!important;
+    }
+
+section#omne {
+    background-image: url(../img/Stack%20of%20old%20books.jpg);
+    background-size:cover;
+    background-attachment: scroll;
+    background-position:left;
+    text-align: left;
+    padding: 30px;
+    color:white;
+}
+p.social {
+ text-decoration: none;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 4em;;
+  border-radius: 50%;
+  position:relative;
+}
+
+p.social:hover {
+    opacity: 0.7;
+ text-decoration: none;
+}
+
+fa.fa-linkedin::before {
+  background: #007bb5;
+  color: white;
+  border-radius: 2px;
+}
+fa.fa-instagram::before {
+  background: #125688;
+  color: white;
+ border-radius: 2px;
+}
+
+section#zručnosti {
+    background-image: linear-gradient(grey, white)
+    margin-bottom: 0;
+}
+
+data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translate(0);}
+
+div.riadok {
+    margin-bottom: 30px;
+    border: 1px solid #D7AC88;
+    display: block;
+}
+.riadok .bar > div {
+    color: #fff;
+    text-align: right;
+    display: inline-block;
+    padding-left: 2px;
+    background-color: #7db9ff;
+    background-image: linear-gradient(168deg, #CDD9EE 0%, #E7CAB6 50%, #D7AC88 100%);}
+
+.riadok .bar span {
+    font-weight: 400;
+    display: inline-block;
+    background-color: #A47337;
+    padding: 4px 4px;
+    margin-left: .25em;
+    color: white;
+}
+.nadpisSkusenosti {
+    text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  color:black;
+  background: white;
+}
+
+.flex-container > div {
+  background-color: #966122;
+  width: 500px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 35px;
+    font-size: 25px;}
+
+footer {
+    text-align: center;
+}
