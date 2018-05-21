@@ -10,9 +10,8 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    color: black;
+    color: #2f2f2f;
 }
-
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,21 +20,31 @@ h1, h2, h3, h4, h5, h6 {
     margin:0;
     text-align: center;
 }
+
 main {
     clear: both;
-    background-color: white;
-    margin-top: 0;
+    background-color: #2f2f2f;
+    margin: 0;
     padding: 0;
 }
 section {
     clear:both;
 }
 
-section#zručnosti{
+/*section#zručnosti{
     position: relative;
     left: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 70px;*/
 }
+section#zručnosti h1 {
+    color:white;
+    }
+section#zručnosti {
+    background: linear-gradient (grey, white);
+    color: white;
+    margin: O;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -79,16 +88,19 @@ a.nav-link {
 
 nav.mynavbar.navbar.navbar-expand-lg.navbar-light.bg-light {
     background-color: #363636!important;
+
     }
 
 section#omne {
-    background-image: url(../img/Stack%20of%20old%20books.jpg);
+    background-image: url(../img/spev.jpg.jpg);
     background-size:cover;
+    width: 100%;
     background-attachment: scroll;
-    background-position:left;
-    text-align: left;
-    padding: 30px;
-    color:white;
+    background-position:top;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+    color: white;
 }
 p.social {
  text-decoration: none;
@@ -117,10 +129,6 @@ fa.fa-instagram::before {
  border-radius: 2px;
 }
 
-section#zručnosti {
-    background-image: linear-gradient(grey, white)
-    margin-bottom: 0;
-}
 
 data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
@@ -136,7 +144,6 @@ div.riadok {
     text-align: right;
     display: inline-block;
     padding-left: 2px;
-    background-color: #7db9ff;
     background-image: linear-gradient(168deg, #CDD9EE 0%, #E7CAB6 50%, #D7AC88 100%);}
 
 .riadok .bar span {
@@ -147,7 +154,14 @@ div.riadok {
     margin-left: .25em;
     color: white;
 }
-.nadpisSkusenosti {
+
+  section#skusenosti {
+      color: white;
+    }
+div.container h1 {
+    text-align: center;
+}
+div.row {
     text-align: center;
 }
 
@@ -158,19 +172,49 @@ div.riadok {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  color:black;
+  color:white;
   background: white;
 }
 
 .flex-container > div {
-  background-color: #966122;
+  background-image: linear-gradient(168deg, #CDD9EE 0%, #E7CAB6 50%, #D7AC88 100%);
   width: 500px;
-  height: 100px;
+  height: 150px;
   margin: 10px;
   text-align: center;
   line-height: 35px;
     font-size: 25px;}
 
+address {
+    text-align: center;
+    font-weight: 700;
+}
+
+section#kontakt {
+    background-image: url(../img/kontakt.jpg);
+    background-size:cover;
+    width: 100%;
+    height: auto;
+    background-attachment: scroll;
+    background-position: left;
+    color: white;
+}
+section#kontakt h2{
+    color: white;
+}
+
+section#map {
+    height: 600px;
+    width: 100%;
+    margin: 0;
+}
+
 footer {
     text-align: center;
+    background: #2f2f2f;
+    color: white;
 }
+    .button {
+        position:relative;
+        left: 400px;}
+
